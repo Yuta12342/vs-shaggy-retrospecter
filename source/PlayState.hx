@@ -884,7 +884,7 @@ class PlayState extends MusicBeatState
 		add(presetTxt);
 
 		if(ScoreUtils.botPlay){
-			var botplayTxt = new FlxText(0, 80, 0, "[BOTPLAY]", 30);
+			var botplayTxt = new FlxText(0, 80, 0, " ", 30);
 			botplayTxt.cameras = [camHUD];
 			botplayTxt.screenCenter(X);
 			botplayTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
